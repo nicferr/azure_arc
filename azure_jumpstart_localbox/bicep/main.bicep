@@ -67,7 +67,7 @@ param tags object = {
 
 @description('Region to register Azure Local instance in. This is the region where the Azure Local instance resources will be created. The region must be one of the supported Azure Local regions.')
 @allowed([
-  'australiaeast'
+  'italynorth'
   'southcentralus'
   'eastus'
   'westeurope'
@@ -76,7 +76,7 @@ param tags object = {
   'japaneast'
   'centralindia'
 ])
-param azureLocalInstanceLocation string = 'australiaeast'
+param azureLocalInstanceLocation string = 'italynorth'
 
 // if governResourceTags is true, add the following tags
 var resourceTags = governResourceTags ? union(tags, {
