@@ -35,8 +35,8 @@
         'ms-kubernetes-tools.vscode-kubernetes-tools'
     )
 
-    HostVMDriveLetter = "V"
-    HostVMPath        = "V:\VMs"                              # This value controls the path where the Nested VMs will be stored on all hosts.
+    HostVMDriveLetter = "C"
+    HostVMPath        = "C:\VMs"                              # This value controls the path where the Nested VMs will be stored on all hosts.
     guiVHDXPath       = "C:\LocalBox\VHD\gui.vhdx"              # This value controls the location of the GUI VHDX.
     AzLocalVHDXPath    = "C:\LocalBox\VHD\AzL-node.vhdx"           # This value controls the location of the Azure Local VHDX. \
 
